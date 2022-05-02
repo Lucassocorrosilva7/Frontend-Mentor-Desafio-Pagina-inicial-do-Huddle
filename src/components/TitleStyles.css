@@ -1,0 +1,113 @@
+.col-2 {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+
+.col-2__heading {
+    font-family: var(--ff-secondary);
+    color: var(--clr-white);
+    text-transform: capitalize;
+    width: 100%;
+    font-size: 1.8rem;
+    max-width: 22rem;
+    text-align: center;
+}
+
+.col-2__text {
+    margin-top: 1.5rem;
+    font-size: 14px;
+    color: var(--clr-white);
+    text-align: center;
+    font-family: var(--ff-secondary);
+    font-weight: 400;
+    width: 69.5%;
+}
+
+.col-2__btn--resgister {
+    background-color: var(--clr-white);
+    margin-top: 3rem;
+    padding: 1rem 5rem;
+    border-radius: 50px;
+    color: var(--clr-primary);
+    transition: all 0.5s;
+}
+
+.col-2__btn--resgister:hover {
+    background-color: var(--clr-secondary);
+    color: var(--clr-white);
+}
+
+.col-2__links {
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
+    color: var(--clr-white);
+    display: flex;
+    cursor: pointer;
+}
+
+.col-2__links i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 1px solid var(--clr-white);
+    border-radius: 20px;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    margin: 0 0.25rem;
+}
+
+.col-2__links i:hover {
+    color: var(--clr-secondary);
+    border: 1px solid var(--clr-secondary);
+    transition: all 0.5s;
+}
+
+
+
+
+@media screen and (min-width:1170px) {
+    .col-2 {
+        width: 100%;
+    }
+
+    .col-2__heading {
+        width: 100%;
+        font-size: 1.8rem;
+        max-width: 22rem;
+        width: 100%;
+        justify-self: left;
+        text-align: left;
+    }
+
+
+
+    .col-2__text {
+        margin-top: 2rem;
+        font-size: 14px;
+        color: var(--clr-white);
+        text-align: left;
+        font-family: var(--ff-primary);
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .col-2__btn--resgister {
+        margin-top: 1rem;
+        padding: 0.8rem 3.5rem;
+        justify-self: left;
+        font-family: var(--ff-secondary);
+        font-weight: 600;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+
+    }
+
+
+    .col-2__links {
+        margin-top: 8rem;
+        justify-self: right;
+    }
+}

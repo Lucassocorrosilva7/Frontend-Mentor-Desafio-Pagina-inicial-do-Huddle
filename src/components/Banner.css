@@ -1,0 +1,28 @@
+.col-1__img {
+    width: 100%;
+    max-width: 21rem;
+}
+
+@media screen and (min-width:480px) {
+    .col-1__img {
+        width: 100%;
+        max-width: 30rem;
+    }
+}
+
+@media screen and (min-width:676px) {
+    .col-1__img {
+        width: 100%;
+        max-width: 50rem;
+    }
+}
+
+
+@media screen and (min-width:1170px) {
+    .col-1__img {
+        width: auto;
+        margin-left: 3rem;
+        max-width: 40rem;
+    }
+
+}

@@ -1,0 +1,22 @@
+.Container {
+  width: 100%;
+  min-height: 100vh;
+  background: url(../src/images/bg-mobile.svg), var(--clr-primary);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  object-fit: cover;
+}
+
+
+@media screen and (min-width:1170px) {
+  .Container {
+      width: 100%;
+      min-height: 100vh;
+      background: url(../src/images/bg-desktop.svg), var(--clr-primary);
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: contain;
+      object-fit: cover;
+  }
+}
